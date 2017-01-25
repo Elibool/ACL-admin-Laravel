@@ -47,7 +47,6 @@ Route::group(
                 Route::get('/users/remove','UsersController@getRemove');
     }
 );
-
 /*
  * @todo 定义错误或通知视图路由
  */
