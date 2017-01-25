@@ -34,7 +34,7 @@
 - git clone 到本地
 - 配置 **.env** 中数据库连接信息,没有 .env 请复制 .env.example 命名为 .env
 - 执行 `php artisan migrate` 生成数据库结构;
-- > 如果出错,请先将 `app\Providers\AuthServiceProvider.php` 内的 `public function boot()` 全部注释掉
+- 注意: 上步如果出错,请先将 `app\Providers\AuthServiceProvider.php` 内的 `public function boot()` 方法代码全部注释掉
 - 执行 `php artisan db:seed` 填充数据
 - 执行 `php artisan serve`
 - 浏览器输入 'localhost:8000/login'
