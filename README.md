@@ -1,4 +1,4 @@
-# Larval 5.3 ACL 后台实例
+# Larval 5.3 ACL 后台Demo
 
 ## 说明
 
@@ -33,8 +33,8 @@
 
 - git clone 到本地
 - 配置 **.env** 中数据库连接信息,没有 .env 请复制 .env.example 命名为 .env
-- 执行 `php artisan migrate` 生成数据库结构,
-如果出错,请先将 `app\Providers\AuthServiceProvider.php` 内的 `public function boot()` 全部注释掉
+- 执行 `php artisan migrate` 生成数据库结构;
+- > 如果出错,请先将 `app\Providers\AuthServiceProvider.php` 内的 `public function boot()` 全部注释掉
 - 执行 `php artisan db:seed` 填充数据
 - 执行 `php artisan serve`
 - 浏览器输入 'localhost:8000/login'
@@ -43,4 +43,4 @@
 
 ## 使用
 - 默认 Admin 为超级管理员可用于添加顶级权限
-  具体部分可以参照路由与源码,也可以 Email 我 elibool@outlook.com
+- 具体部分可以参照路由与源码,也可以 Email 我 elibool@outlook.com
