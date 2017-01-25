@@ -14,6 +14,7 @@ class NoticeController extends Controller
     public function AdminUserNoPermission(Request $request)
     {
         return '没有权限';
+
     }
 
 }
