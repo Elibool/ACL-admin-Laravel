@@ -26,7 +26,7 @@
 
 ## 项目 Demo
 - ###### 本项目建议只用来做参考
-- [yi_admin](http://yiadmin.kaytrip.com/)
+- [Demo http://yiadmin.kaytrip.com](http://yiadmin.kaytrip.com/)
 - 默认顶级管理员登录用户名密码: admin@admin.com 123456
 - 低权限用户登录: elibool@outlook.com 123456
 
