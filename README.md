@@ -32,7 +32,7 @@
 
 ## 截图
 
-## ![laravel 用户权限分配](https://github.com/Elibool/ACL-management-with-Laravel-Bootstrap/blob/master/public/images/yi_admin2.png)
+## ![laravel 用户权限分配](https://github.com/Elibool/ACL-admin-Laravel/blob/b27d2612b4a8392fbd5994eeb5b99c5c04817f3b/public/images/yi_admin2.png)
 
 ![权限树](https://github.com/Elibool/ACL-management-with-Laravel-Bootstrap/blob/master/public/images/yi_admin3.png)
 
