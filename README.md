@@ -24,6 +24,12 @@
 ###### 本项目建议只用来做参考
 
 
+## 项目 Demo
+
+- [yi_admin](http://yiadmin.kaytrip.com/)
+- 默认顶级管理员登录用户名密码: admin@admin.com 123456
+- 低权限用户登录: elibool@outlook.com 123456
+
 ## 截图
 
 ## ![laravel 用户权限分配](https://github.com/Elibool/ACL-management-with-Laravel-Bootstrap/blob/master/public/images/yi_admin2.png)
