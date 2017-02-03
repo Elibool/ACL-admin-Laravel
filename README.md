@@ -8,15 +8,18 @@
 权限控制系统这块 ,主要运用了 Laravel 自带的 Gate 来实现
 这是一个需自主约定开发的过程,在编写 Controller 时需约定好各个方法的命名实现
 有两种权限定义模式:
+
 1.宽松模式
+
 2.严格模式
 严格模式 > 宽松模式
 
 例:
 (宽松模式定义) 拥有订单列表权限后,同时拥有单个订单的 view 和 modify 权限
+
 单独定义订单权限, 如 view 和 modify 权限,可定义只拥有 view  权限而没有 modify 权限 (严格模式订单)
 
-更多 描述可前往 [wiki](https://github.com/Elibool/ACL-management-with-Laravel-Bootstrap/wiki)
+更多关于本项目的想法 可前往 [wiki](https://github.com/Elibool/ACL-management-with-Laravel-Bootstrap/wiki)
 
 ###### 本项目建议只用来做参考
 
